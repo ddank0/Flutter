@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_maonamassa/home/home_page.dart';
+import 'package:flutter_navegacao/navegacao/home_page.dart' as navegacao;
 
 void main() {
   runApp(const MyApp());
@@ -13,9 +13,8 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: navegacao.HomePage(),
     );
   }
 }
 
-  
